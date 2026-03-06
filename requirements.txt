@@ -1,4 +1,6 @@
-flask==2.3.3
-numpy==1.26.4
-gunicorn==21.2.0
+fastapi
+uvicorn
+numpy
+pandas
+scikit-learn
 tensorflow==2.15.0
