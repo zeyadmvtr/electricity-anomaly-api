@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
 
-model = load_model("model.h5")
+model = load_model("anomaly_model.h5")
 
 @app.route("/")
 def home():
@@ -22,3 +22,4 @@ def predict():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
